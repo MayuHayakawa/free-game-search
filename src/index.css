@@ -1,0 +1,47 @@
+:root {
+  --light-bg-primary: #FFFFFF;
+  --light-bg-secondary: #AEE0F1;
+  --light-bg-third: #75CCE9;
+  --light-font-primary: #2C3283;
+  --light-font-secondary: #E190E4;
+
+  --dark-bg-primary: #100a19  ;
+  --dark-bg-secondary: #404040;
+  --dark-bg-third: #534EC4;
+  --dark-font-primary: #FFFFFF;
+  --dark-font-secondary: #DC59DD;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Toxigenesis";
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/font/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LatoBold";
+  src: url("./assets/font/Lato-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Recharge";
+  src: url("./assets/font/Recharge.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Toxigenesis";
+  src: url("./assets/font/Toxigenesis.otf") format("opentype");
+}
+
+/* @media screen and (max-width: 768px) */
+/* 375 */
