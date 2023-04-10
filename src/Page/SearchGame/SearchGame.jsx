@@ -6,6 +6,7 @@ import ThemeContext from '../../Context/ThemeContext';
 import { BsArrowUpCircleFill } from 'react-icons/bs';
 
 const SearchGameCotainer = styled.div`
+  width: 100%;
   position: absolute;
   padding: 10vh 1rem 1rem 1rem;
   background-color: ${props => props.color === "dark" ? "var(--dark-bg-secondary)" : "var(--light-bg-secondary)" };

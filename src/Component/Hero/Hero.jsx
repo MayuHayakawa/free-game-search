@@ -107,7 +107,7 @@ const Hero = () => {
             <img src={theme === "light" ? mainImageLight : mainImageDark} />
         </div>
         <div className='titleContainer'>
-            <h1>Start searching FREE TO PLAY</h1>
+            <h1>Start searching for games free to play</h1>
         </div>
         <div className='buttonContainer'>
           <Link to="/searchgame">
