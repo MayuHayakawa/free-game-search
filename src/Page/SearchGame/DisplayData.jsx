@@ -14,7 +14,7 @@ const DisplayData = ( filteredData ) => {
   return (
     <>
         { displayData && displayData.length != 0 && (
-            <SimpleGrid spacing={5} templateColumns='repeat(auto-fill, minmax(25rem, 1fr))'>
+            <SimpleGrid spacing={5} templateColumns='repeat(auto-fill, minmax(20rem, 1fr))'>
                 {displayData.map((game) => {
                     return(
                         <InfoCard data={game}/>

@@ -47,7 +47,7 @@ const Main = styled.div`
   @media screen and (max-width: 768px) {
     .titleContainer {
       h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
     }
   }
@@ -95,6 +95,24 @@ const Button = styled.button`
     &::before {
       left: 8.75rem;
     }
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+    padding: 1rem 1.5rem;
+    &::after,
+    &::before {
+      width: 70%;
+    }
+    &::before {
+      left: -3rem;
+    }
+    &::after {
+      left: 5rem;
+    }
+  }  
+  @media screen and (max-width: 414px) {
+    font-size: 0.8rem;
+    padding: 1rem 1rem;
   }  
 `
 

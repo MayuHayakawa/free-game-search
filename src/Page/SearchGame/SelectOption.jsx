@@ -14,6 +14,9 @@ const SearchContainer = styled.div`
   p {
     color: ${props => props.color === "dark" ? "var(--dark-font-primary)" : "var(--light-font-primary)" };
   }
+  @media screen and (max-width: 768px) {
+    padding: 1rem 1rem;
+  }
 
 `
 

@@ -27,10 +27,6 @@ const UpToTopButton = styled.div`
 const SearchGame = () => {
   const { theme } = useContext(ThemeContext);
 
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
   return (
     <SearchGameCotainer
       color={theme}
