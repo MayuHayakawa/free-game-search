@@ -8,7 +8,7 @@ const Nav = styled.nav`
     position: fixed;
     top: 0;
     width: 100%;
-    height: 10vh;
+    height: 7rem;
     display: flex;
     align-items: center;
     background-color: ${props => props.color === "dark" ? "var(--dark-bg-primary)" : "var(--light-bg-primary)" };
@@ -44,8 +44,9 @@ const Nav = styled.nav`
         }
     }
     @media screen and (max-width: 768px) {
+        height: 5rem;
         h1 {
-            font-size: 1.3rem;
+            font-size: 1rem;
             position: relative;
             width: 100%;
             text-align: center;
