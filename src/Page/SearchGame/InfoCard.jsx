@@ -29,8 +29,10 @@ const Card = styled.div`
             font-family: "LatoBold";
         }
         p {
+            width: 100%;
             display: -webkit-box;
             overflow: scroll;
+            overflow-x: hidden;
             -webkit-box-orient: vertical;
             -webkit-line-clamp: 2;
         }
@@ -38,8 +40,7 @@ const Card = styled.div`
             padding-top: 0.5rem;
             display: flex;
             justify-content: space-between;
-            p {
-                display: block;
+            div {
                 padding: 0 0.3rem;
                 font-size: 0.8rem;
                 background-color: ${props => props.color === "dark" ? "var(--dark-font-primary)" : "var(--light-font-primary)" };
@@ -69,10 +70,12 @@ const InfoCard = ( game ) => {
         </div>
         <div className="description-container">
             <h3>{title}</h3>
-            <p>{short_description}</p>
             <div>
-                <p>{genre}</p>
-                <p>{platform}</p>
+                <p>{short_description}</p>
+            </div>
+            <div>
+                <div>{genre}</div>
+                <div>{platform}</div>
             </div>
         </div>    
     </Card>
